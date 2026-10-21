@@ -1,90 +1,225 @@
 
+
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prince Decorator & Gift House</title>
+
+<title>Prince Decorator & Gift House | Howrah</title>
+
+<meta name="description" content="Wedding decoration, event decoration and beautiful gifts in Bankra Bazar, Howrah. Contact Prince Decorator & Gift House on WhatsApp.">
+
 <style>
+
+:root{--wine:#651629;--gold:#d8b36a;--cream:#fff9f0;--ink:#302126}
+
 *{box-sizing:border-box}
-body{margin:0;font-family:Arial,sans-serif;background:#fffaf5;color:#33251f}
-header{background:#6b1747;color:white;text-align:center;padding:28px 15px}
-header h1{margin:0;font-size:29px}
-header p{margin:10px 0 0}
-nav{background:#48102f;padding:13px;text-align:center}
-nav a{color:white;text-decoration:none;margin:0 10px;font-weight:bold}
-.hero{padding:65px 20px;text-align:center;background:linear-gradient(135deg,#f9dce8,#fff0d6)}
-.hero h2{font-size:32px;color:#6b1747}
-.hero p{font-size:18px;line-height:1.7}
-.btn{display:inline-block;background:#18864b;color:white;padding:14px 22px;border-radius:8px;text-decoration:none;margin:8px;font-weight:bold}
-section{padding:35px 18px;text-align:center}
-section h2{color:#6b1747}
-.services{display:flex;flex-wrap:wrap;justify-content:center;gap:15px}
-.service{background:white;border:1px solid #f0d6e1;border-radius:12px;padding:22px;width:250px;box-shadow:0 3px 12px #0000000a}
-.service h3{color:#8b285d}
-.contact{background:#f7e6ed}
-footer{background:#48102f;color:white;text-align:center;padding:20px}
-.hindi{font-size:16px;line-height:1.8}
+
+html{scroll-behavior:smooth}
+
+body{margin:0;font-family:Georgia,'Times New Roman',serif;background:var(--cream);color:var(--ink)}
+
+header{background:var(--wine);color:white;text-align:center;padding:24px 14px;border-bottom:4px solid var(--gold)}
+
+.brand{font-size:clamp(25px,6vw,39px);margin:0;color:#f4d995}
+
+header p{margin:8px 0 0;font-family:Arial,sans-serif;font-size:13px;letter-spacing:2px}
+
+nav{display:flex;justify-content:center;gap:22px;flex-wrap:wrap;background:#4b1020;padding:13px}
+
+nav a{color:#fff5dd;text-decoration:none;font:14px Arial,sans-serif}
+
+.hero{min-height:490px;display:flex;align-items:center;justify-content:center;text-align:center;padding:45px 20px;color:white;background:linear-gradient(#26071185,#260711a8),url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1800&q=85') center/cover}
+
+.hero-inner{max-width:700px}
+
+.eyebrow{color:#f4d995;text-transform:uppercase;letter-spacing:3px;font:12px Arial,sans-serif}
+
+h1{font-size:clamp(38px,8vw,66px);line-height:1.1;margin:15px 0}
+
+.hero p{font:16px/1.8 Arial,sans-serif}
+
+.btn{display:inline-block;padding:14px 22px;border-radius:4px;text-decoration:none;font:bold 14px Arial,sans-serif;margin:7px}
+
+.btn-gold{background:var(--gold);color:#34101b}
+
+.btn-whatsapp{background:#168b50;color:white}
+
+section{padding:55px 18px}
+
+.section-title{text-align:center;color:var(--wine);font-size:clamp(28px,5vw,38px);margin:0 0 12px}
+
+.intro{text-align:center;max-width:680px;margin:0 auto 30px;font:15px/1.8 Arial,sans-serif;color:#65535a}
+
+.gold-line{width:65px;height:3px;background:var(--gold);margin:15px auto 25px}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;max-width:1050px;margin:auto}
+
+.card{background:white;border:1px solid #ead9bd;box-shadow:0 8px 22px #4d152010}
+
+.card img{width:100%;height:230px;object-fit:cover;display:block}
+
+.card h3{color:var(--wine);text-align:center;font-size:22px;margin:18px 10px 8px}
+
+.card p{text-align:center;font:14px/1.7 Arial,sans-serif;padding:0 18px 15px;margin:0}
+
+.gallery{background:#f4e8d7}
+
+.gallery img{width:100%;height:270px;object-fit:cover;border:3px solid white;box-shadow:0 5px 18px #3c152015}
+
+.contact{background:var(--wine);color:white;text-align:center}
+
+.contact .section-title{color:#f4d995}
+
+.contact p{font:15px/1.9 Arial,sans-serif}
+
+.contact a{color:#f4d995}
+
+footer{background:#3b0d19;color:#e9d9c0;text-align:center;padding:18px;font:12px/1.8 Arial,sans-serif}
+
 </style>
+
 </head>
+
 <body>
 
 <header>
-<h1>Prince Decorator & Gift House</h1>
-<p>Your Celebration, Our Decoration</p>
-<p>आपकी खुशी, हमारी सजावट</p>
+
+  <h2 class="brand">Prince Decorator &amp; Gift House</h2>
+
+  <p>YOUR CELEBRATIONS, OUR PASSION</p>
+
 </header>
 
 <nav>
-<a href="#home">Home</a>
-<a href="#services">Services</a>
-<a href="#contact">Contact</a>
+
+  <a href="#home">Home</a>
+
+  <a href="#services">Services</a>
+
+  <a href="#gallery">Gallery</a>
+
+  <a href="#contact">Contact</a>
+
 </nav>
 
-<div class="hero" id="home">
-<h2>Make Every Occasion Special!</h2>
-<p>Beautiful Decorations • Special Gifts • Memorable Celebrations</p>
-<p class="hindi">हर खास मौके को बनाएं और भी खूबसूरत।</p>
-<a class="btn" href="https://wa.me/916291935590?text=Hello%2C%20I%20want%20to%20know%20about%20your%20services" target="_blank">Chat on WhatsApp</a>
-<a class="btn" style="background:#6b1747" href="tel:+916291935590">Call Now</a>
-</div>
+<main>
+
+<section class="hero" id="home">
+
+  <div class="hero-inner">
+
+    <div class="eyebrow">Elegance • Tradition • Celebration</div>
+
+    <h1>Make Every Moment Beautiful</h1>
+
+    <p>Wedding decoration, party decoration and thoughtful gifts for your most special occasions.</p>
+
+    <p>शादी, पार्टी की सजावट और खूबसूरत गिफ्ट्स — हर खास मौके के लिए।</p>
+
+    <a class="btn btn-gold" href="#services">Explore Our Services</a>
+
+    <a class="btn btn-whatsapp" href="https://wa.me/916291935590" target="_blank" rel="noopener">Chat on WhatsApp</a>
+
+  </div>
+
+</section>
 
 <section id="services">
-<h2>Our Services | हमारी सेवाएं</h2>
-<div class="services">
-<div class="service">
-<h3>🎉 Event Decoration</h3>
-<p>Decoration for special occasions and celebrations.</p>
-<p class="hindi">शादी, पार्टी और खास मौकों की सजावट।</p>
-</div>
-<div class="service">
-<h3>🎂 Birthday Decoration</h3>
-<p>Make birthdays colourful and memorable.</p>
-<p class="hindi">जन्मदिन की खूबसूरत सजावट।</p>
-</div>
-<div class="service">
-<h3>🎁 Gift House</h3>
-<p>Find thoughtful gifts for your loved ones.</p>
-<p class="hindi">अपनों के लिए खास उपहार।</p>
-</div>
-</div>
-<p>Contact us to ask about available services and pricing.</p>
+
+  <h2 class="section-title">Our Services</h2>
+
+  <div class="gold-line"></div>
+
+  <p class="intro">Beautiful details, thoughtful presentation and memorable celebrations. Contact us to discuss your requirements.</p>
+
+  <div class="cards">
+
+    <article class="card">
+
+      <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Elegant wedding ceremony decoration" loading="lazy">
+
+      <h3>Wedding Decoration</h3>
+
+      <p>Make your special day elegant, colourful and unforgettable.</p>
+
+    </article>
+
+    <article class="card">
+
+      <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Beautiful celebration and event setup" loading="lazy">
+
+      <h3>Party &amp; Event Decor</h3>
+
+      <p>Decoration ideas for celebrations, family functions and special events.</p>
+
+    </article>
+
+    <article class="card">
+
+      <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Beautiful wrapped gift boxes" loading="lazy">
+
+      <h3>Gift House</h3>
+
+      <p>Explore gift ideas to make every celebration more meaningful.</p>
+
+    </article>
+
+  </div>
+
 </section>
 
-<section class="contact" id="contact">
-<h2>Contact Us | संपर्क करें</h2>
-<p><strong>Prince Decorator & Gift House</strong></p>
-<p>📍 Bankra Bazar, Karatkal Gali, Howrah, West Bengal</p>
-<p>📞 +91 6291-935590</p>
-<p>✉️ princedecorator0@gmail.com</p>
-<a class="btn" href="https://wa.me/916291935590" target="_blank">WhatsApp Us</a>
-<p class="hindi">ऑर्डर और जानकारी के लिए हमसे संपर्क करें।</p>
+<section class="gallery" id="gallery">
+
+  <h2 class="section-title">Our Inspiration Gallery</h2>
+
+  <div class="gold-line"></div>
+
+  <p class="intro">Wedding moments and beautiful gift ideas to inspire your next celebration.</p>
+
+  <div class="cards">
+
+    <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Wedding celebration inspiration" loading="lazy">
+
+    <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Wedding event inspiration" loading="lazy">
+
+    <img src="https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Gift boxes and presents" loading="lazy">
+
+  </div>
+
 </section>
+
+<section id="contact" class="contact">
+
+  <h2 class="section-title">Let's Celebrate Together</h2>
+
+  <div class="gold-line"></div>
+
+  <p>Prince Decorator &amp; Gift House</p>
+
+  <p><strong>Phone / WhatsApp:</strong><br><a href="https://wa.me/916291935590" target="_blank" rel="noopener">+91 6291-935590 — Chat with us</a></p>
+
+  <p><strong>Email:</strong><br><a href="mailto:princedecorator0@gmail.com">princedecorator0@gmail.com</a></p>
+
+  <p><strong>Address:</strong><br>Bankra Bazar, Karatkal Gali,<br>Howrah, West Bengal</p>
+
+  <a class="btn btn-whatsapp" href="https://wa.me/916291935590" target="_blank" rel="noopener">Chat on WhatsApp</a>
+
+</section>
+
+</main>
 
 <footer>
-<p>© 2026 Prince Decorator & Gift House</p>
-<p>Howrah, West Bengal</p>
+
+  © <span id="year">2026</span> Prince Decorator &amp; Gift House. All rights reserved.
+
 </footer>
 
 </body>
+
 </html>
